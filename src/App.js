@@ -48,8 +48,8 @@ function App() {
         </h1>
         <img
           css={css`
-            width: 600px;
-            height: 400px;
+            width: fit-content;
+            max-height: 500px;
             border: 15px solid white;
           `}
           src={url}
