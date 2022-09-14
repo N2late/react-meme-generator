@@ -93,7 +93,7 @@ function App() {
           `}
           htmlFor="topText"
         >
-          Top text{' '}
+          Top text
         </label>
         <input
           css={css`
@@ -113,7 +113,7 @@ function App() {
           `}
           htmlFor="bottomText"
         >
-          Bottom text{' '}
+          Bottom text
         </label>
         <input
           name="bottomText"
