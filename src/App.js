@@ -99,7 +99,7 @@ function App() {
           css={css`
             margin-right: 20px;
           `}
-          name="topText"
+          id="topText"
           value={topText}
           onChange={(e) => {
             const text = e.currentTarget.value.replace(' ', '_');
@@ -116,7 +116,7 @@ function App() {
           Bottom text
         </label>
         <input
-          name="bottomText"
+          id="bottomText"
           value={bottomText}
           onChange={(e) => {
             const text = e.currentTarget.value.replace(' ', '_');
