@@ -41,7 +41,6 @@ function App() {
         <h1
           css={css`
             color: white;
-            font-family: 'Brush Script MT', cursive;
           `}
         >
           Meme Generator
@@ -56,17 +55,14 @@ function App() {
           alt="meme"
           data-test-id="meme-image"
         />
-        <h3
+        <h3>Personalize your Meme</h3>
+        <div
           css={css`
-            font-family: 'Brush Script MT', cursive;
+            margin-bottom: 20px;
           `}
         >
-          Personalize your Meme
-        </h3>
-        <div>
           <label
             css={css`
-              font-family: 'Brush Script MT';
               font-weight: 700;
             `}
             htmlFor="templates"
@@ -88,8 +84,8 @@ function App() {
         </div>
         <label
           css={css`
-            font-family: 'Brush Script MT';
             font-weight: 700;
+            margin-right: 10px;
           `}
           htmlFor="topText"
         >
@@ -108,8 +104,8 @@ function App() {
         />
         <label
           css={css`
-            font-family: 'Brush Script MT';
             font-weight: 700;
+            margin-right: 10px;
           `}
           htmlFor="bottomText"
         >
